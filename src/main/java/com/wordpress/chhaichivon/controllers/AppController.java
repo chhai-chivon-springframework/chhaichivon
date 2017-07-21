@@ -19,5 +19,4 @@ public class AppController {
         System.out.print("Home Page");
         return "index";
     }
-
 }

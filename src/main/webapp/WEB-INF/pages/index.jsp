@@ -11,8 +11,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 
-   <%-- <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/static/css/style.css">
-    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/static/js/js.js"></script>--%>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/static/css/style.css">
+    <script type="text/javascript" src="${pageContext.request.contextPath}/resources/static/js/js.js"></script>
 </head>
 <body>
     <center><h2>Hello World</h2></center>
