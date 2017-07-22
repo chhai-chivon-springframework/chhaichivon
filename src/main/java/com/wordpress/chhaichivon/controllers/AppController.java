@@ -19,4 +19,16 @@ public class AppController {
         System.out.print("Home Page");
         return "index";
     }
+
+    @RequestMapping(value = "/contact", method = RequestMethod.GET)
+    public String contact(){
+        System.out.print("Contact Us");
+        return "contact";
+    }
+
+    @RequestMapping(value = "/about", method = RequestMethod.GET)
+    public String about(){
+        System.out.print("about Us");
+        return "about";
+    }
 }
